@@ -3,7 +3,6 @@ html, body {
     background-color: #000000;
     color: white;
 }
-
 #layoutAuthentication {
     display: flex;
     flex-direction: column;
@@ -40,6 +39,14 @@ html, body {
     flex-grow: 1;
     min-height: calc(100vh - 56px);
     margin-left: -225px;
+}
+#search {
+    border: #1e2125;
+    background-color: #000000;
+}
+#btnNavbarSearch {
+    border: #1e2125;
+    background-color: #000000;
 }
 .sb-sidenav-toggled #layoutSidenav #layoutSidenav_nav {
     transform: translateX(0);

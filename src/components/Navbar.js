@@ -12,9 +12,9 @@ export function Navbar(props) {
             >
                 <i className="fas fa-bars"></i>
             </button>
-            <form className="d-none d-md-inline-block form-inline me-0 ms-md-3 me-md-3 my-2 my-md-0"> {/*ms-auto*/}
+            <form className="d-none d-md-inline-block form-inline me-0 ms-md-3 me-md-3 my-2 my-md-0">
                 <div className="input-group">
-                    <input className="form-control" type="text" placeholder="Search"
+                    <input id={"search"} className="form-control" type="text" placeholder="Search"
                         aria-label="Search" aria-describedby="btnNavbarSearch"
                     />
                     <button

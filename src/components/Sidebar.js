@@ -2,41 +2,38 @@ import {SidebarMenuHeading} from "./SidebarMenuHeading";
 import {NavLink} from "./NavLink";
 
 const sidebarItems = [
-    {type: "heading", title: "Core"},
     {type: "navlink", title: "Dashboard", icon: "fas fa-tachometer-alt"},
-    {type: "heading", title: "Interface"},
     {
         type: "navlink",
-        title: "Dashboard",
+        title: "Menu",
         icon: "fas fa-columns",
-        items: ["Static navigation", "Light sidenav"],
+        items: ["Child", "Child"],
     },
     {
         type: "navlink",
-        title: "Pages",
+        title: "Menu",
         icon: "fas fa-columns",
         items: [
             {
                 type: "navlink",
-                title: "Authentication",
-                items: ["Login", "Register", "Forget password"],
+                title: "Menu",
+                items: ["Child","Child","Child"],
             },
             {
                 type: "navlink",
-                title: "Error",
-                items: ["400 error", "4O1 error", "500 error"],
+                title: "Menu",
+                items: ["Child","Child","Child"],
             },
         ],
     },
-    {type: "heading", title: "Addons"},
     {
         type: "navlink",
-        title: "Charts",
+        title: "Menu",
         icon: "fas fa-chart-area",
     },
     {
         type: "navlink",
-        title: "Tables",
+        title: "Menu",
         icon: "fas fa-table",
     },
 ];

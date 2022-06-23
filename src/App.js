@@ -80,7 +80,9 @@ function App() {
                         <div className="bg-dark rounded-top p-4" id={"footer"} >
                             <div className="row">
                                 <div className="col-12 col-sm-6 text-center text-sm-start">
-                                    .
+                                    Antananarivo 101
+                                    <br/>
+                                    CONTACT : +261 40 501 44
                                 </div>
                                 <div className="col-12 col-sm-6 text-center text-sm-end">
                                     👾👾👾 - Designed By :
