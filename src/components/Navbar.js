@@ -6,7 +6,7 @@ export function Navbar(props) {
         <nav className="sb-topnav navbar navbar-expand navbar-dark bg-dark">
             <a className="navbar-brand ps-3" href="index.html">Data Interface</a>
             <button
-                className="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0"
+                className="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0 sidebar-toggler"
                 id="sidebarToggle"
                 onClick={() => toggleSidebarClass()}
             >
@@ -14,8 +14,8 @@ export function Navbar(props) {
             </button>
             <form className="d-none d-md-inline-block form-inline me-0 ms-md-3 me-md-3 my-2 my-md-0">
                 <div className="input-group">
-                    <input id={"search"} className="form-control" type="text" placeholder="Search"
-                        aria-label="Search" aria-describedby="btnNavbarSearch"
+                    <input id={"search"} className="form-control" type="text" placeholder="Recherche"
+                        aria-label="Recherche" aria-describedby="btnNavbarSearch"
                     />
                     <button
                         className="btn btn-primary"
