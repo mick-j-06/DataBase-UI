@@ -2,7 +2,7 @@ import {SidebarMenuHeading} from "./SidebarMenuHeading";
 import {NavLink} from "./NavLink";
 
 const sidebarItems = [
-    {type: "navlink", title: "Dashboard", icon: "fas fa-tachometer-alt"},
+    {type: "navlink", title: "Tableau de bord", icon: "fas fa-tachometer-alt"},
     {
         type: "navlink",
         title: "Menu",

@@ -27,20 +27,20 @@ function App() {
                         <ContainerFluid>
                             <div className="row g-4">
                                 <Card icon={"fa fa-chart-line fa-3x text-primary"}>
-                                    <p className="mb-2">Text</p>
-                                    <h6 className="mb-0">1234</h6>
+                                    <p className="mb-2">Revenu journaliers</p>
+                                    <h6 className="mb-0">valeur</h6>
                                 </Card>
                                 <Card icon={"fa fa-chart-bar fa-3x text-primary"} >
-                                    <p className="mb-2">Text</p>
+                                    <p className="mb-2">Nombre de voyage aujourd'hui</p>
                                     <h6 className="mb-0">1234</h6>
                                 </Card>
                                 <Card icon={"fa fa-chart-area fa-3x text-primary"} >
-                                    <p className="mb-2">Text</p>
-                                    <h6 className="mb-0">1234</h6>
+                                    <p className="mb-2">Chauffeur qui a le plus conduit</p>
+                                    <h6 className="mb-0">valeur</h6>
                                 </Card>
                                 <Card icon={"fa fa-chart-pie fa-3x text-primary"}>
-                                    <p className="mb-2">Text</p>
-                                    <h6 className="mb-0">1234</h6>
+                                    <p className="mb-2">Destination plus prisee</p>
+                                    <h6 className="mb-0">valeur</h6>
                                 </Card>
                             </div>
                         </ContainerFluid>
@@ -49,8 +49,8 @@ function App() {
                                 <div className="col-sm-12 col-xl-6">
                                     <div className="bg-dark text-center rounded p-4">
                                         <div className="d-flex align-items-center justify-content-between mb-4">
-                                            <h6 className="mb-0">Data</h6>
-                                            <a href="">Show All</a>
+                                            <h6 className="mb-0">List des voyages</h6>
+                                            <a href="">Tout afficher</a>
                                         </div>
                                         <canvas></canvas>
                                     </div>
@@ -58,8 +58,8 @@ function App() {
                                 <div className="col-sm-12 col-xl-6">
                                     <div className="bg-dark text-center rounded p-4">
                                         <div className="d-flex align-items-center justify-content-between mb-4">
-                                            <h6 className="mb-0">Data</h6>
-                                            <a href="">Show All</a>
+                                            <h6 className="mb-0">List des villes</h6>
+                                            <a href="">Tout afficher</a>
                                         </div>
                                         <canvas></canvas>
                                     </div>
@@ -69,8 +69,8 @@ function App() {
                         <ContainerFluid>
                             <div className="bg-dark text-center rounded p-4">
                                 <div className="d-flex align-items-center justify-content-between mb-4">
-                                    <h6 className="mb-0">Recent Salse</h6>
-                                    <a href="">Show All</a>
+                                    <h6 className="mb-0">List des reservation</h6>
+                                    <a href="">Tout afficher</a>
                                 </div>
                                 <canvas></canvas>
                             </div>
